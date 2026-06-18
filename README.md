@@ -2,11 +2,11 @@
 
 ---------------------------------------------------------------------------------
 
-Written by Ankang Liu (email: liuankan@msu.edu) and Mahmoud Elewa (email:khalafel@msu.edu), Michigan State University, 2025.
+Written by Ankang Liu (email: liuankan@msu.edu) and Mahmoud Elewa (email: khalafel@msu.edu), Michigan State University, 2025.
 
 ---------------------------------------------------------------------------------
 
-Here, we present the supplemental code for our paper "A Liu and M Dykman, [Effect of hole-strain coupling on the eigenmodes of semiconductor-based nanomechanical systems](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.235410)".
+Here, we present the supplemental code for our paper "A. Liu and M. I. Dykman, [Effect of hole-strain coupling on the eigenmodes of semiconductor-based nanomechanical systems](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.235410)".
 
 "p-type_semiconductor_elasticity_code.zip" archive contains three Mathematica notebook files in it:
 (1) "two-band_model_Si.nb" shows analytically how the energy dispersion laws for the light- and heavy-hole bands are expanded in power series of strain tensor. Then, it uses Mathematica built-in function "NIntegrate" to calculate the hole-induced corrections to the elasticity parameters in p-type silicon up to the fourth order. The code here simply utilizes the analytical expressions derived in our preprint and the silicon parameters from Winkler's book to perform the calculations. The correction to any component of the elastic constant in the two-band approximation can be calculated for a given hole density and temperature using this file.
@@ -15,7 +15,7 @@ Here, we present the supplemental code for our paper "A Liu and M Dykman, [Effec
 
 (3) "three-band_model_Si.nb" gives the code that we have used to numerically evaluate the hole-induced corrections to the elasticity parameters in p-type silicon when the spin split-off hole band is taken into account. Details of the numerical method used here can be found in our preprint as well as the comments in the file. In this notebook, only certain combinations of the second- and fourth-order elastic constants, which are relevant to the MEMS modes we have studied in our preprint, are calculated.
 
-We also added the code for our cross-kerr analysis relevant for the paper "A. Liu, M. T. Elewa, and M. I. Dykman, Cross-Kerr mode coupling in p-doped semiconductor nanomechanical resonators".
+We also added the code for our cross-kerr analysis relevant for the paper "A. Liu, M. T. Elewa, and M. I. Dykman, [Dispersive mode coupling in p-doped semiconductor nanomechanical resonators](https://arxiv.org/abs/2606.17392)".
 
 "cross_kerr_code.zip" archive contains three Mathematica notebook files in it:
 (1) "Analytical_expressions_for_cross_kerr_shifts.nb" shows analytically the calculations for the induced cross-Kerr frequency shift of the Lame mode due to the torsional mode and the torsional mode due to the Lame mode. 
